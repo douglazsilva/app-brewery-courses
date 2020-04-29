@@ -6,52 +6,62 @@ class QuizBrain {
 
   List<Question> _questionBank = [
     Question(
-      'You can lead a cow down stairs but not up stairs.',
-      false,
+      questionText: 'Some cats are actually allergic to humans',
+      questionAnswer: true,
     ),
     Question(
-      'Approximately one quarter of human bones are in the feet.',
-      true,
+      questionText: 'You can lead a cow down stairs but not up stairs.',
+      questionAnswer: false,
     ),
     Question(
-      'A slug\'s blood is green.',
-      true,
+      questionText: 'Approximately one quarter of human bones are in the feet.',
+      questionAnswer: true,
     ),
     Question(
-      'Buzz Aldrin\'s mother\'s maiden name was \"Moon\".',
-      true,
+      questionText: 'A slug\'s blood is green.',
+      questionAnswer: true,
     ),
     Question(
-      'It is illegal to pee in the Ocean in Portugal.',
-      true,
+      questionText: 'Buzz Aldrin\'s mother\'s maiden name was \"Moon\".',
+      questionAnswer: true,
     ),
     Question(
-      'No piece of square dry paper can be folded in half more than 7 times.',
-      false,
+      questionText: 'It is illegal to pee in the Ocean in Portugal.',
+      questionAnswer: true,
     ),
     Question(
-      'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
-      true,
+      questionText:
+          'No piece of square dry paper can be folded in half more than 7 times.',
+      questionAnswer: false,
     ),
     Question(
-      'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
-      false,
+      questionText:
+          'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
+      questionAnswer: true,
     ),
     Question(
-      'The total surface area of two human lungs is approximately 70 square metres.',
-      true,
+      questionText:
+          'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
+      questionAnswer: false,
     ),
     Question(
-      'Google was originally called \"Backrub\".',
-      true,
+      questionText:
+          'The total surface area of two human lungs is approximately 70 square metres.',
+      questionAnswer: true,
     ),
     Question(
-      'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
-      true,
+      questionText: 'Google was originally called \"Backrub\".',
+      questionAnswer: true,
     ),
     Question(
-      'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
-      true,
+      questionText:
+          'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
+      questionAnswer: true,
+    ),
+    Question(
+      questionText:
+          'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
+      questionAnswer: true,
     ),
   ];
 
